@@ -1,0 +1,38 @@
+@import '../Globl/variable';
+.Footer{
+    padding: 56px 214px 8px;
+    background-color: $color_footer;
+    
+}
+.GridItem{
+    display: grid;
+    grid-template-columns:auto,auto,auto;
+}
+.List{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+di
+
+}
+li{
+    color: $color_white;
+}
+.Tel{
+    display:grid ;
+    grid-column: 10px;
+    
+}
+.TelNumber{
+    color: $color_white;
+}
+.tel_Btn{
+    background-color: transparent;
+    border: 1px solid $color_HeartCart;
+    color: $color_HeartCart;
+    padding: 4px 6px;
+}
+
+li:nth-child(1) {
+        font-size: 30px;
+}

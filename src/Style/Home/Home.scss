@@ -1,0 +1,26 @@
+@import '../Globl/variable';
+#Aktsiya{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 161px;
+   padding-bottom:80px ;
+   
+
+    
+.card-title{
+    font-family: MontserratBolt;
+    font-weight: 900;
+font-size: 36px;
+font-style: normal;
+}
+
+.btn{
+    font-family: MontserratBolt;
+background-color: $color_HeartCart;
+font-weight: 900;
+font-size: 15px;
+color: $color_white;
+}
+}

@@ -1,0 +1,56 @@
+@import '../Globl/variable';
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nav-link{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+.searchForm{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  $color_border;
+    input{
+        border: none;
+        background: $color_bg;
+        font-size: 12px;
+    }
+  
+    input:focus{
+        box-shadow: none;   
+        background: $color_bg;  
+    }
+}
+.heartCart{
+gap: 10px;  
+i{
+    
+    color: $color_HeartCart;
+    font-size: 40px;
+
+}
+}
+.dropdown {
+    margin-left: -10px;
+    button{
+
+        font-size: 14px;
+            }
+}
+.dropdown-menu{
+    font-weight: 400;
+    font-size: 14px;
+    background-color: $color_bg;
+}
+.HeaderBg{
+    background-color: $color_white;
+    box-shadow: 0px 15px 10px -15px #000;   
+  }
+
