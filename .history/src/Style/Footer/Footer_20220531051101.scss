@@ -1,0 +1,91 @@
+@import '../Globl/variable';
+.Footer{    
+    padding: 6px 0 8px;
+    background-color: $color_footer;
+    
+}
+.footerMenu{
+    .navbar-nav{
+        display: none;
+        .nav-link{
+            Weight
+400
+Size
+12px
+            color:$color_white
+        }
+    }
+}
+
+
+.GridItem{
+    display: grid;
+ grid-template-columns: 15% 1fr 15%;
+
+    align-items: center;
+   
+}
+.List{
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+    display: grid;
+grid-template-columns: repeat(3,1fr);  
+padding: 50px 110px;
+
+}
+
+.Tel{
+    display:grid ;
+    grid-column: 10px;
+    
+}
+.TelNumber{
+    color: $color_white;
+}
+.tel_Btn{
+    background-color: transparent;
+    border: 1px solid $color_HeartCart;
+    color: $color_HeartCart;
+    padding: 4px 6px;
+}
+
+li:nth-child(1) {
+        font-size: 20px;
+}
+.footerBootomText{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap:70px;
+
+    .Text{
+        font-weight: 400;
+        font-size: 12px;
+        color: $color_white;
+    }
+}
+
+@media (max-width: 992px) { 
+    .footerMenu{
+   
+      .navbar-nav {
+        display: flex;
+        align-items: center; 
+      
+       
+        
+    }
+    }
+   
+.GridItem {
+      grid-template-columns:auto 1fr  auto;
+      grid-auto-flow: dense;  
+     row-gap: 50px;  
+    }
+    .List {
+        grid-column: 1 / 4;
+      }
+  
+}
+

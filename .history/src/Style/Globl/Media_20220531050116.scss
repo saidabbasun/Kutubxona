@@ -1,0 +1,50 @@
+@import './variable';
+
+
+// Tablet media query
+
+@media (max-width: 992px) { 
+ 
+ 
+    .navbar-nav{
+    display: none;
+ 
+    }
+    .Aktsiya{
+        flex-direction: column;
+        text-align: center;
+      
+            gap: 50px;
+    }
+
+    .caruselContainer{
+        width: 88vw;
+    }
+
+    .Catagorycard{
+        margin: 20px 0px 20px 15px; 
+    }
+    .navbarNav{
+        .navItem{
+            color: $color_white;  
+            
+        }
+      .navbarNav{
+        display: flex;
+        align-items: center; 
+      }
+       
+        
+    }
+    .GridItem {
+          grid-template-columns:auto auto auto;
+          grid-auto-flow: dense;  
+         row-gap: 50px;  
+        }
+        .List {
+            grid-column: 1 / 4;
+          }
+      
+   
+   }
+
